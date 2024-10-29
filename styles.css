@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/premium-photo/balanced-diet-food-background-protein-foods-blue-wooden-background-free-space-your-text_187166-23147.jpg'); /* Set body background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    text-align: center;
+}
+
+.container {
+    background-color: #fff; /* Set container background color to white */
+    margin: 50px 0; /* Remove side margin to move it to the left */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    border: 2px solid #28a745; /* Green border */
+    box-shadow: 0 0 20px #28a745, 0 0 40px #28a745, 0 0 60px #28a745; /* Green glow */
+    animation: glow 2s infinite; /* Animation for glowing effect */
+    float: left; /* Move container to the left */
+    margin-left: 250px; /* Increased left margin for spacing */
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 20px #28a745, 0 0 40px #28a745, 0 0 60px #28a745; /* Initial green glow */
+    }
+    50% {
+        box-shadow: 0 0 30px #28a745, 0 0 60px #28a745, 0 0 90px #28a745; /* Stronger green glow */
+    }
+    100% {
+        box-shadow: 0 0 20px #28a745, 0 0 40px #28a745, 0 0 60px #28a745; /* Return to initial green glow */
+    }
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: black; /* Change text color for better contrast on white */
+}
+
+label {
+    margin-right: 10px;
+    color: black; /* Change text color for better contrast on white */
+}
+
+input {
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+#result {
+    margin-top: 20px;
+    display: none;
+}
+
+p {
+    margin: 5px 0;
+    color: black; /* Change text color for better contrast on white */
+}
