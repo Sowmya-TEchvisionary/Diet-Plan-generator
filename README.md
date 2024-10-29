@@ -1,4 +1,4 @@
-Diet Plan Tracker
+#Diet Plan Tracker
 
 Introduction
 The Diet Plan Tracker is a web application designed to help users track their dietary needs and provide personalized diet plans based on their individual requirements. This project is developed using HTML, CSS, and JavaScript.
